@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Pemandangan</title>
+   </head>
+
+   <style>
+      img {
+         float: left;
+         margin-right: 1rem;
+         width: 20vw;
+         border-radius: 1rem;
+      }
+   </style>
+
+   <body>
+      <div class="wrap">
+         <img src="assets/img.jpeg" alt="pemandangan jepang ilustrasi" />
+         <p>
+            Ilustrasi tersebut menggambarkan keindahan pemandangan jepang.
+            Terdapat gunung fuji dan bangunan sebagai salah satu ikon khas dari
+            Jepang. Penggunaan warna palet yang indah membuat ilustrasi terkesan
+            sejuk dan minimalis.
+         </p>
+      </div>
+   </body>
+   <script src="script.js"></script>
+   <script>
+      let rightBtn = document.querySelector(".rightBtn");
+      rightBtn.addEventListener("click", function () {
+         window.location.href = "/13-map_area.html"; //
+      });
+   </script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Address Element</title>
+   </head>
+
+   <style>
+      .wrap {
+         line-height: 1.5rem;
+      }
+   </style>
+
+   <body>
+      <div class="wrap">
+         <address>
+            Anda bisa menghubungi kami di
+            <a href="http://www.duniailkom.com/contact_us"
+               >www.duniailkom.com</a
+            >
+            <br />
+            Jika ada kritik dan saran, bisa email ke
+            <a href="mailto:admin@duniailkom.com">admin duniailkom</a>
+            <br />
+            Alamat kantor kami di : Jl. Sudirman blok 37, No 42A, Pegangsaan
+            Dua, Jakarta Utara. 14250.
+         </address>
+      </div>
+   </body>
+   <script src="script.js"></script>
+   <script>
+      let rightBtn = document.querySelector(".rightBtn");
+      rightBtn.addEventListener("click", function () {
+         window.location.href = "/11-jadul.html"; //
+      });
+   </script>
+</html>

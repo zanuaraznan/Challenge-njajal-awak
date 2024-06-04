@@ -1,0 +1,66 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2vw 20vw;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(#2c2c2c99, #2c2c2c99), url(assets/bg-img.jpg);
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+.wrap {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    line-height: 2rem;
+    color: #2c2c2c;
+    display: block;
+    position: relative;
+    filter: drop-shadow(0 8px 25px #f7aa7755);
+}
+
+.leftBtn {
+    font-size: 1rem;
+    color: black;
+    display: block;
+    position: absolute;
+    left: -1rem;
+    bottom: -1rem;
+    padding: .5rem .9rem;
+    border-radius: 1rem;
+    background-color: rgb(181, 253, 48);
+    overflow: initial;
+    cursor: pointer;
+}
+
+.rightBtn {
+    font-size: 2rem;
+    color: black;
+    display: block;
+    position: absolute;
+    right: -1rem;
+    bottom: -1rem;
+    padding: .2rem .3rem;
+    border-radius: 1rem;
+    background-color: rgb(181, 253, 48);
+    overflow: initial;
+    cursor: pointer;
+}
+
+[class*='Btn']:hover {
+    background-color: rgb(164, 228, 45);
+}
+
+[class*='Btn']:active {
+    background-color: rgb(241, 255, 214);
+}
