@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <h4>Table element dengan style css border</h4>
+        <table style="
+        border: .5px solid #2c2c2c;
+        padding: 1rem;"
+        >
+            <tr>
+                <td style="border: .5px dashed #2c2c2c; padding: 1rem;">Baris 1, kolom 1</td>
+                <td style="border: .5px dashed #2c2c2c; padding: 1rem;">Baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <td style="border: .5px dashed #2c2c2c; padding: 1rem;">Baris 2, kolom 1</td>
+                <td style="border: .5px dashed #2c2c2c; padding: 1rem;">Baris 2, kolom 2</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+<script>
+    let rightBtn = document.querySelector(".rightBtn");
+    rightBtn.addEventListener("click", function () {
+       window.location.href = "/19-table_float.html"; //
+    });
+ </script>
+</html>
